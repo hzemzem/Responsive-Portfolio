@@ -309,7 +309,7 @@
 
     #logo {
       float: left;
-      width: 200px;
+      width: 250px;
       height: 90px;
       font-family: Georgia, Times, "Times New Roman", serif;
       font-size: 24px;
@@ -358,7 +358,7 @@
     .sidebar {
       float: right;
       width: 100%;
-      max-width: 260px;
+      max-width: 100%;
       padding: 30px;
       margin-bottom: 20px;
       background: #fff;
@@ -395,7 +395,7 @@
     .main-section {
       float: left;
       width: 100%;
-      max-width: 500px;
+      max-width: 100%;
       padding: 30px;
       margin: 0 0 40px;
       background: #fff;
@@ -407,7 +407,7 @@
     .work {
       position: relative;
       float: left;
-      width: 430px;
+      width: 100%;
       margin: 20px 0 25px;
       overflow: auto;
     }
@@ -734,9 +734,9 @@
       background: url("../images/concrete_seamless.png");
     }
 
-    * {
+    /** {
       box-sizing: border-box;
-    }
+    }*/
 
     /* general */
 
@@ -792,7 +792,7 @@
     }
 
     #logo {
-      float: left;
+      clear: both;
       width: 100%;
       height: 60px;
       font-family: Georgia, Times, "Times New Roman", serif;
@@ -842,7 +842,7 @@
     .sidebar {
       float: left;
       width: 100%;
-      max-width: 640px;
+      max-width: 100%;
       padding: 30px;
       margin-bottom: 20px;
       background: #fff;
@@ -871,13 +871,14 @@
     /* main */
 
     #main-container {
-      padding-top: 5%;
+      padding: 5%;
+
     }
 
     .main-section {
       float: left;
       width: 100%;
-      max-width: 650px;
+      max-width: 100%;
       padding: 5%;
       margin: 0 0 40px;
       background: #fff;
